@@ -71,6 +71,10 @@ Security      AuthN/Z · least privilege · API hardening · secure defaults
 - Secure multi-tenant platforms for African enterprises
 - Production systems that stay reliable under real-world constraints
 
+### Latest
+
+- Latest (pending daily Hermes update): profile kept current with active engineering work
+
 ---
 
 ### Contact
