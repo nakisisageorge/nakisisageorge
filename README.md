@@ -34,7 +34,7 @@ I design and ship full-stack products with a security-first mindset — from AI-
 | [QFlow Simulator](https://github.com/nakisisageorge/qflow-simulator) | Smart virtual queue management for healthcare | TypeScript · [Live demo](https://qflow-simulator.vercel.app) |
 | [PTAAU Hub](https://github.com/nakisisageorge/ptaau-hub) | National association digital platform | TypeScript |
 | [Health Hazard Communication System](https://github.com/nakisisageorge/ENHANCED-COMMUNICATION-SYSTEM-FOR-EFFECTIVE-HEALTH-HAZARD-PREPAREDNESS-AND-CONTAINMENT) | Real-time stakeholder coordination for Uganda health response | PHP |
-| [AI Chatbot](https://github.com/nakisisageorge/chatbot) | Conversational AI prototype | TypeScript |
+| [Ascendmend](https://github.com/nakisisageorge/asecendmend) | Healthcare / clinical platform frontend | TypeScript · React |
 
 Private production systems (client work) include freight-forwarding AI, meeting summarization APIs, CRM/microservices, digital signage, school platforms, and multi-sided delivery apps.
 
