@@ -339,9 +339,14 @@ Technology in Africa requires more than reproducing systems designed for other m
 * AI-assisted meeting intelligence and workflow automation
 * Secure multi-tenant platforms for African enterprises
 * Production systems that stay reliable under real-world constraints
+* **fallow-ai-security** — AI-enhanced security analysis for TypeScript/JavaScript (Mode B enhancement)
+  * Extended security catalogue with AI/LLM-specific rules (prompt injection, agent tool misuse, LLM data exfiltration, RAG poisoning, insecure agent state, MCP tool injection)
+  * Compliance reporting for OWASP Top 10, CWE Top 25, SOC2, ISO 27001
+  * AI-powered security finding verification framework (fallow-security-ai crate)
+  * Stack: Rust, TypeScript, Oxc parser
 
 ### 📌 Latest
-* Latest (pending daily Hermes update): profile kept current with active engineering work
+* Latest (2026-10-04): Enhanced fallow with AI/LLM security rules, compliance reporting, and AI verification framework
 
 ### 📚 Always Learning
 Software architecture · AI · Cloud engineering · Cybersecurity · Distributed systems · DevOps · Data engineering · Product engineering · Digital transformation
