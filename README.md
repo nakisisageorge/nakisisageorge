@@ -148,6 +148,7 @@ I turn complex business processes into reliable software products that run under
 
 | Project | Domain | Description | Stack |
 |:--|:--:|:--|:--:|
+| 🏦 [**blnk-enhanced**](https://github.com/nakisisageorge/blnk-enhanced) | ![FinTech](https://img.shields.io/badge/FinTech-10B981?style=flat-square) ![AI](https://img.shields.io/badge/AI-7C3AED?style=flat-square) | AI-powered transaction categorization for Blnk ledger with African mobile money support, confidence scoring, and extensible ML integration | ![Go](https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white) |
 | 🔐 [**fallow-ai-security**](https://github.com/nakisisageorge/fallow-ai-security) | ![Security](https://img.shields.io/badge/Security-DC2626?style=flat-square) ![AI](https://img.shields.io/badge/AI-7C3AED?style=flat-square) | AI-enhanced security analysis with LLM-specific rules, compliance reporting, and AI verification | ![Rust](https://img.shields.io/badge/Rust-000000?style=flat-square&logo=rust&logoColor=white) ![TS](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white) |
 | 🏥 [**QFlow Simulator**](https://github.com/nakisisageorge/qflow-simulator) | ![Healthcare](https://img.shields.io/badge/Healthcare-EF4444?style=flat-square) | Smart virtual queue simulation and patient-flow management | ![TS](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white) |
 | 🏛️ [**PTAAU Hub**](https://github.com/nakisisageorge/ptaau-hub) | ![Institutional](https://img.shields.io/badge/Institutional-F59E0B?style=flat-square) | Digital platform for a national association | ![TS](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white) |
@@ -340,14 +341,16 @@ Technology in Africa requires more than reproducing systems designed for other m
 * AI-assisted meeting intelligence and workflow automation
 * Secure multi-tenant platforms for African enterprises
 * Production systems that stay reliable under real-world constraints
-* **fallow-ai-security** — AI-enhanced security analysis for TypeScript/JavaScript (Mode B enhancement)
-  * Extended security catalogue with 8 AI/LLM-specific rules (prompt injection, agent tool misuse, LLM data exfiltration, RAG poisoning, insecure agent state, MCP tool injection, system prompt override, output parsing injection)
-  * Compliance reporting for OWASP Top 10, CWE Top 25, SOC 2, ISO 27001
-  * AI-powered security finding verification framework (fallow-security-ai crate)
-  * Stack: Rust, TypeScript, Oxc parser
+* **blnk-enhanced** — AI-powered transaction categorization for Blnk ledger (Mode B enhancement) <span class="badge badge-new">PUBLISHED</span>
+  * Rule-based transaction categorization service with extensible design for ML integration
+  * Automatic categorization based on transaction description analysis
+  * African mobile money provider support (MPESA, MoMo, Airtel, MTN, Orange)
+  * Confidence scoring with AI fallback placeholder
+  * Batch categorization API and category analytics
+  * Stack: Go
 
 ### 📌 Latest
-* Latest (2026-10-06): Published fallow-ai-security — AI/LLM security rules, compliance reporting, and AI verification framework
+* Latest (2026-10-10): Published blnk-enhanced — AI-powered transaction categorization for Blnk ledger with rule-based engine, African mobile money support, confidence scoring, and extensible AI/ML integration
 
 ### 📚 Always Learning
 Software architecture · AI · Cloud engineering · Cybersecurity · Distributed systems · DevOps · Data engineering · Product engineering · Digital transformation
