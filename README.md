@@ -343,7 +343,7 @@ Technology in Africa requires more than reproducing systems designed for other m
 * AI-assisted meeting intelligence and workflow automation
 * Secure multi-tenant platforms for African enterprises
 * Production systems that stay reliable under real-world constraints
-* **agent-device-enhanced** — AI-powered selector generation, Android snapshot optimization, streaming MCP server, AI screen recording with evidence extraction, security scanning, interactive architecture docs for agent-device mobile automation (Mode B enhancement) <span class="badge badge-new">IN PROGRESS</span>
+* **agent-device-enhanced** — AI-powered selector generation, Android snapshot optimization, streaming MCP server, AI screen recording with evidence extraction, security scanning, interactive architecture docs for agent-device mobile automation (Mode B enhancement) <span class="badge badge-new">PUBLISHED</span>
   * AI-powered selector generation with LLM assistance (OpenAI/Anthropic/Groq/Google) and confidence scoring
   * Android snapshot performance optimization (<2s target via caching + batched geometry calls)
   * Streaming MCP server with progress updates and rich tool metadata
