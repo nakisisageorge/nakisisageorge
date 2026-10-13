@@ -146,9 +146,11 @@ I turn complex business processes into reliable software products that run under
 <!-- ===================== PROJECTS ===================== -->
 ## 🏗️ Selected Projects
 
-| Project | Domain | Description | Stack |
-|:--|:--:|:--|:--:|
-| 🏦 [**blnk-enhanced**](https://github.com/nakisisageorge/blnk-enhanced) | ![FinTech](https://img.shields.io/badge/FinTech-10B981?style=flat-square) ![AI](https://img.shields.io/badge/AI-7C3AED?style=flat-square) | AI-powered transaction categorization for Blnk ledger with African mobile money support, confidence scoring, and extensible ML integration | ![Go](https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white) |
+||| Project | Domain | Description | Stack |
+|||:--|:--:|:--|:--:|
+||| 📁 [**superfile-enhanced**](https://github.com/nakisisageorge/superfile-enhanced) | ![DevTools](https://img.shields.io/badge/DevTools-4F46E5?style=flat-square) ![Cloud](https://img.shields.io/badge/Cloud-0891B2?style=flat-square) ![AI](https://img.shields.io/badge/AI-7C3AED?style=flat-square) | Cloud storage adapters (S3/Azure/GCS/WebDAV), AI-powered file categorization, plugin architecture, enhanced previews for superfile TUI file manager | ![Go](https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white) |
+||| 🔐 [**anubis-enhanced**](https://github.com/nakisisageorge/anubis-enhanced) | ![Security](https://img.shields.io/badge/Security-DC2626?style=flat-square) ![Cloud](https://img.shields.io/badge/Cloud-0891B2?style=flat-square) | Real-time observability dashboard, policy validation CLI, enhanced metrics, deployment hardening for Anubis AI firewall | ![Go](https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white) |
+|| 🏦 [**blnk-enhanced**](https://github.com/nakisisageorge/blnk-enhanced) | ![FinTech](https://img.shields.io/badge/FinTech-10B981?style=flat-square) ![AI](https://img.shields.io/badge/AI-7C3AED?style=flat-square) | AI-powered transaction categorization for Blnk ledger with African mobile money support, confidence scoring, and extensible ML integration | ![Go](https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white) |
 | 🔐 [**fallow-ai-security**](https://github.com/nakisisageorge/fallow-ai-security) | ![Security](https://img.shields.io/badge/Security-DC2626?style=flat-square) ![AI](https://img.shields.io/badge/AI-7C3AED?style=flat-square) | AI-enhanced security analysis with LLM-specific rules, compliance reporting, and AI verification | ![Rust](https://img.shields.io/badge/Rust-000000?style=flat-square&logo=rust&logoColor=white) ![TS](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white) |
 | 🏥 [**QFlow Simulator**](https://github.com/nakisisageorge/qflow-simulator) | ![Healthcare](https://img.shields.io/badge/Healthcare-EF4444?style=flat-square) | Smart virtual queue simulation and patient-flow management | ![TS](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white) |
 | 🏛️ [**PTAAU Hub**](https://github.com/nakisisageorge/ptaau-hub) | ![Institutional](https://img.shields.io/badge/Institutional-F59E0B?style=flat-square) | Digital platform for a national association | ![TS](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white) |
@@ -341,16 +343,27 @@ Technology in Africa requires more than reproducing systems designed for other m
 * AI-assisted meeting intelligence and workflow automation
 * Secure multi-tenant platforms for African enterprises
 * Production systems that stay reliable under real-world constraints
-* **blnk-enhanced** — AI-powered transaction categorization for Blnk ledger (Mode B enhancement) <span class="badge badge-new">PUBLISHED</span>
-  * Rule-based transaction categorization service with extensible design for ML integration
-  * Automatic categorization based on transaction description analysis
-  * African mobile money provider support (MPESA, MoMo, Airtel, MTN, Orange)
-  * Confidence scoring with AI fallback placeholder
-  * Batch categorization API and category analytics
-  * Stack: Go
+* **agent-device-enhanced** — AI-powered selector generation, Android snapshot optimization, streaming MCP server, AI screen recording with evidence extraction, security scanning, interactive architecture docs for agent-device mobile automation (Mode B enhancement) <span class="badge badge-new">IN PROGRESS</span>
+  * AI-powered selector generation with LLM assistance (OpenAI/Anthropic/Groq/Google) and confidence scoring
+  * Android snapshot performance optimization (<2s target via caching + batched geometry calls)
+  * Streaming MCP server with progress updates and rich tool metadata
+  * AI screen recording: automatic highlight detection, evidence extraction, replay script generation
+  * Security scanning: credential/PII detection, insecure storage audit, certificate pinning verification
+  * Interactive React Flow architecture visualization
+  * Interactive REPL with time-travel debugging
+  * Stack: TypeScript, Node.js 22.12+, Vercel AI SDK, React Flow, pnpm monorepo
+* **superfile-enhanced** — Cloud storage adapters (S3/Azure/GCS/WebDAV), AI-powered file categorization, plugin architecture, enhanced previews for superfile TUI file manager (Mode B enhancement) <span class="badge badge-new">PUBLISHED</span>
+  * Cloud storage provider interface with S3, Azure Blob, GCS, WebDAV implementations
+  * Rule-based AI file categorization with African mobile money receipt detection
+  * Plugin architecture foundation for extensibility
+  * Enhanced file previews: syntax highlighting, images, PDFs, archives
+  * Semantic search with ripgrep integration
+  * Stack: Go, Bubble Tea, Lipgloss, AWS SDK, Azure SDK, Google Cloud SDK
 
 ### 📌 Latest
-* Latest (2026-10-10): Published blnk-enhanced — AI-powered transaction categorization for Blnk ledger with rule-based engine, African mobile money support, confidence scoring, and extensible AI/ML integration
+* Latest (2026-10-13): Building agent-device-enhanced — AI-powered selector generation, Android snapshot optimization, streaming MCP server, AI screen recording, security scanning, interactive architecture docs for mobile automation
+* Latest (2026-10-12): Published superfile-enhanced — Cloud storage adapters (S3/Azure/GCS/WebDAV), AI-powered file categorization, plugin architecture, enhanced previews, semantic search for superfile TUI file manager
+* Latest (2026-10-11): Published anubis-enhanced — Real-time observability dashboard, policy validation CLI, enhanced Prometheus metrics, healthcheck fixes, complete i18n (12 languages), deployment hardening for Anubis AI firewall
 
 ### 📚 Always Learning
 Software architecture · AI · Cloud engineering · Cybersecurity · Distributed systems · DevOps · Data engineering · Product engineering · Digital transformation
