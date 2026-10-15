@@ -148,7 +148,8 @@ I turn complex business processes into reliable software products that run under
 
 ||| Project | Domain | Description | Stack |
 |||:--|:--:|:--|:--:|
-||| 📁 [**superfile-enhanced**](https://github.com/nakisisageorge/superfile-enhanced) | ![DevTools](https://img.shields.io/badge/DevTools-4F46E5?style=flat-square) ![Cloud](https://img.shields.io/badge/Cloud-0891B2?style=flat-square) ![AI](https://img.shields.io/badge/AI-7C3AED?style=flat-square) | Cloud storage adapters (S3/Azure/GCS/WebDAV), AI-powered file categorization, plugin architecture, enhanced previews for superfile TUI file manager | ![Go](https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white) |
+||| 🌐 [**omni-tools-enhanced**](https://github.com/nakisisageorge/omni-tools-enhanced) | ![WebApp](https://img.shields.io/badge/WebApp-0EA5E9?style=flat-square) ![MCP](https://img.shields.io/badge/MCP_AI_Agents-7C3AED?style=flat-square) ![AI](https://img.shields.io/badge/AI-7C3AED?style=flat-square) | Fixed search-filter bug, added Unit Converter + Data Transfer Time tools, and a zero-dependency MCP server exposing the toolbox to AI agents for omni-tools | ![TS](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white) ![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black) |
+|| 📁 [**superfile-enhanced**](https://github.com/nakisisageorge/superfile-enhanced) | ![DevTools](https://img.shields.io/badge/DevTools-4F46E5?style=flat-square) ![Cloud](https://img.shields.io/badge/Cloud-0891B2?style=flat-square) ![AI](https://img.shields.io/badge/AI-7C3AED?style=flat-square) | Cloud storage adapters (S3/Azure/GCS/WebDAV), AI-powered file categorization, plugin architecture, enhanced previews for superfile TUI file manager | ![Go](https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white) |
 ||| 🔐 [**anubis-enhanced**](https://github.com/nakisisageorge/anubis-enhanced) | ![Security](https://img.shields.io/badge/Security-DC2626?style=flat-square) ![Cloud](https://img.shields.io/badge/Cloud-0891B2?style=flat-square) | Real-time observability dashboard, policy validation CLI, enhanced metrics, deployment hardening for Anubis AI firewall | ![Go](https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white) |
 || 🏦 [**blnk-enhanced**](https://github.com/nakisisageorge/blnk-enhanced) | ![FinTech](https://img.shields.io/badge/FinTech-10B981?style=flat-square) ![AI](https://img.shields.io/badge/AI-7C3AED?style=flat-square) | AI-powered transaction categorization for Blnk ledger with African mobile money support, confidence scoring, and extensible ML integration | ![Go](https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white) |
 | 🔐 [**fallow-ai-security**](https://github.com/nakisisageorge/fallow-ai-security) | ![Security](https://img.shields.io/badge/Security-DC2626?style=flat-square) ![AI](https://img.shields.io/badge/AI-7C3AED?style=flat-square) | AI-enhanced security analysis with LLM-specific rules, compliance reporting, and AI verification | ![Rust](https://img.shields.io/badge/Rust-000000?style=flat-square&logo=rust&logoColor=white) ![TS](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white) |
@@ -343,6 +344,13 @@ Technology in Africa requires more than reproducing systems designed for other m
 * AI-assisted meeting intelligence and workflow automation
 * Secure multi-tenant platforms for African enterprises
 * Production systems that stay reliable under real-world constraints
+* **omni-tools-enhanced** — Search-filter bug fix (upstream #227), Unit Converter (10 categories incl. affine temperature), Data Transfer Time Calculator (overhead-aware), and a zero-dependency MCP server exposing 15 toolbox tools to AI agents for omni-tools (Mode B enhancement) <span class="badge badge-new">PUBLISHED</span>
+  * Fixed homepage search ignoring the user-type filter, including localStorage-restored state (upstream #227)
+  * Unit Converter: length, mass, temperature (affine + absolute-zero checks), area, volume, speed, time, pressure, energy, power (upstream #79)
+  * Data Transfer Time Calculator: b…TiB sizes, bps…Gbps bandwidth, protocol-overhead modeling, humanized output (upstream #80)
+  * MCP stdio server: JSON-RPC 2.0, protocol-version negotiation, JSON-Schema argument validation, 15 tools wrapping the same pure service functions as the web UI (upstream #177)
+  * Fork-owned CI: dual typecheck + 741 passing tests + production build + GitHub Pages deploy
+  * Stack: TypeScript, React 18, MUI, Vite, Node.js (zero-dep MCP), GitHub Actions/Pages
 * **agent-device-enhanced** — AI-powered selector generation, Android snapshot optimization, streaming MCP server, AI screen recording with evidence extraction, security scanning, interactive architecture docs for agent-device mobile automation (Mode B enhancement) <span class="badge badge-new">PUBLISHED</span>
   * AI-powered selector generation with LLM assistance (OpenAI/Anthropic/Groq/Google) and confidence scoring
   * Android snapshot performance optimization (<2s target via caching + batched geometry calls)
@@ -361,6 +369,7 @@ Technology in Africa requires more than reproducing systems designed for other m
   * Stack: Go, Bubble Tea, Lipgloss, AWS SDK, Azure SDK, Google Cloud SDK
 
 ### 📌 Latest
+* Latest (2026-10-15): Published omni-tools-enhanced — search-filter bug fix (upstream #227), Unit Converter + Data Transfer Time tools, zero-dependency MCP server exposing 15 tools to AI agents, fork CI with GitHub Pages demo
 * Latest (2026-10-13): Building agent-device-enhanced — AI-powered selector generation, Android snapshot optimization, streaming MCP server, AI screen recording, security scanning, interactive architecture docs for mobile automation
 * Latest (2026-10-12): Published superfile-enhanced — Cloud storage adapters (S3/Azure/GCS/WebDAV), AI-powered file categorization, plugin architecture, enhanced previews, semantic search for superfile TUI file manager
 * Latest (2026-10-11): Published anubis-enhanced — Real-time observability dashboard, policy validation CLI, enhanced Prometheus metrics, healthcheck fixes, complete i18n (12 languages), deployment hardening for Anubis AI firewall
