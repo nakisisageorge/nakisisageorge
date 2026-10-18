@@ -36,13 +36,13 @@ I turn complex business processes into reliable software products that run under
 
 <div align="center">
 
-| 🧑‍💻 **Engineering** | 🤖 **Intelligence** | 🔐 **Security** | ☁️ **Infrastructure** |
-|:---:|:---:|:---:|:---:|
-| Full-stack · Mobile<br/>Multi-tenant SaaS | LLMs · Agents<br/>RAG · Automation | Secure architecture<br/>Threat-aware design | Cloud · DevOps<br/>CI/CD · Linux |
+|| 🧑‍💻 **Engineering** | 🤖 **Intelligence** | 🔐 **Security** | ☁️ **Infrastructure** ||
+||:---:|:---:|:---:|:---:||
+|| Full-stack · Mobile<br/>Multi-tenant SaaS | LLMs · Agents<br/>RAG · Automation | Secure architecture<br/>Threat-aware design | Cloud · DevOps<br/>CI/CD · Linux ||
 
-| 🏥 **Healthcare** | 🚚 **Logistics** | 🛒 **Commerce** | 🎓 **Education** |
-|:---:|:---:|:---:|:---:|
-| Clinical & EMS systems | Freight & mobility | Marketplaces & payments | School & e-learning |
+|| 🏥 **Healthcare** | 🚚 **Logistics** | 🛒 **Commerce** | 🎓 **Education** ||
+||:---:|:---:|:---:|:---:||
+|| Clinical & EMS systems | Freight & mobility | Marketplaces & payments | School & e-learning ||
 
 </div>
 
@@ -146,44 +146,18 @@ I turn complex business processes into reliable software products that run under
 <!-- ===================== PROJECTS ===================== -->
 ## 🏗️ Selected Projects
 
-||| Project | Domain | Description | Stack |
-|||:--|:--:|:--|:--:|
-||| 🌐 [**omni-tools-enhanced**](https://github.com/nakisisageorge/omni-tools-enhanced) | ![WebApp](https://img.shields.io/badge/WebApp-0EA5E9?style=flat-square) ![MCP](https://img.shields.io/badge/MCP_AI_Agents-7C3AED?style=flat-square) ![AI](https://img.shields.io/badge/AI-7C3AED?style=flat-square) | Fixed search-filter bug, added Unit Converter + Data Transfer Time tools, and a zero-dependency MCP server exposing the toolbox to AI agents for omni-tools | ![TS](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white) ![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black) |
-|| 📁 [**superfile-enhanced**](https://github.com/nakisisageorge/superfile-enhanced) | ![DevTools](https://img.shields.io/badge/DevTools-4F46E5?style=flat-square) ![Cloud](https://img.shields.io/badge/Cloud-0891B2?style=flat-square) ![AI](https://img.shields.io/badge/AI-7C3AED?style=flat-square) | Cloud storage adapters (S3/Azure/GCS/WebDAV), AI-powered file categorization, plugin architecture, enhanced previews for superfile TUI file manager | ![Go](https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white) |
-||| 🔐 [**anubis-enhanced**](https://github.com/nakisisageorge/anubis-enhanced) | ![Security](https://img.shields.io/badge/Security-DC2626?style=flat-square) ![Cloud](https://img.shields.io/badge/Cloud-0891B2?style=flat-square) | Real-time observability dashboard, policy validation CLI, enhanced metrics, deployment hardening for Anubis AI firewall | ![Go](https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white) |
-|| 🏦 [**blnk-enhanced**](https://github.com/nakisisageorge/blnk-enhanced) | ![FinTech](https://img.shields.io/badge/FinTech-10B981?style=flat-square) ![AI](https://img.shields.io/badge/AI-7C3AED?style=flat-square) | AI-powered transaction categorization for Blnk ledger with African mobile money support, confidence scoring, and extensible ML integration | ![Go](https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white) |
-| 🔐 [**fallow-ai-security**](https://github.com/nakisisageorge/fallow-ai-security) | ![Security](https://img.shields.io/badge/Security-DC2626?style=flat-square) ![AI](https://img.shields.io/badge/AI-7C3AED?style=flat-square) | AI-enhanced security analysis with LLM-specific rules, compliance reporting, and AI verification | ![Rust](https://img.shields.io/badge/Rust-000000?style=flat-square&logo=rust&logoColor=white) ![TS](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white) |
-| 🏥 [**QFlow Simulator**](https://github.com/nakisisageorge/qflow-simulator) | ![Healthcare](https://img.shields.io/badge/Healthcare-EF4444?style=flat-square) | Smart virtual queue simulation and patient-flow management | ![TS](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white) |
-| 🏛️ [**PTAAU Hub**](https://github.com/nakisisageorge/ptaau-hub) | ![Institutional](https://img.shields.io/badge/Institutional-F59E0B?style=flat-square) | Digital platform for a national association | ![TS](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white) |
-| 🚨 [**Health Hazard Communication System**](https://github.com/nakisisageorge/ENHANCED-COMMUNICATION-SYSTEM-FOR-EFFECTIVE-HEALTH-HAZARD-PREPAREDNESS-AND-CONTAINMENT) | ![Public Health](https://img.shields.io/badge/Public_Health-10B981?style=flat-square) | Real-time health-hazard communication and stakeholder coordination | ![PHP](https://img.shields.io/badge/PHP-777BB4?style=flat-square&logo=php&logoColor=white) |
-| 🩺 [**Ascendmend**](https://github.com/nakisisageorge/asecendmend) | ![Healthcare](https://img.shields.io/badge/Healthcare-EF4444?style=flat-square) | Clinical and healthcare platform frontend | ![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black) ![TS](https://img.shields.io/badge/TS-3178C6?style=flat-square&logo=typescript&logoColor=white) |
-
-### 🔒 Private / Production Engineering
-
-<table>
-<tr>
-<td>🚑 Emergency medical services & ambulance operations</td>
-<td>🏥 Healthcare & clinical management</td>
-<td>🚚 Freight forwarding & logistics intelligence</td>
-</tr>
-<tr>
-<td>🤖 AI-powered meeting intelligence</td>
-<td>🧠 AI workflow automation</td>
-<td>🏫 School management & e-learning</td>
-</tr>
-<tr>
-<td>🛍️ Digital commerce & marketplaces</td>
-<td>📱 Multi-sided delivery applications</td>
-<td>💼 CRM & enterprise management</td>
-</tr>
-<tr>
-<td>📺 Digital signage</td>
-<td>💰 Financial & SACCO platforms</td>
-<td>🔐 Security-sensitive institutional systems</td>
-</tr>
-</table>
-
-<img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=6,11,20&height=3&section=header" width="100%" alt=""/>
+|||| Project | Domain | Description | Stack ||
+||||:--|:--:|:--|:--:||
+|||| 🌐 [**omni-tools-enhanced**](https://github.com/nakisisageorge/omni-tools-enhanced) | ![WebApp](https://img.shields.io/badge/WebApp-0EA5E9?style=flat-square) ![MCP](https://img.shields.io/badge/MCP_AI_Agents-7C3AED?style=flat-square) ![AI](https://img.shields.io/badge/AI-7C3AED?style=flat-square) | Fixed search-filter bug, added Unit Converter + Data Transfer Time tools, and a zero-dependency MCP server exposing the toolbox to AI agents for omni-tools | ![TS](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white) ![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black) ||
+||| 📁 [**superfile-enhanced**](https://github.com/nakisisageorge/superfile-enhanced) | ![DevTools](https://img.shields.io/badge/DevTools-4F46E5?style=flat-square) ![Cloud](https://img.shields.io/badge/Cloud-0891B2?style=flat-square) ![AI](https://img.shields.io/badge/AI-7C3AED?style=flat-square) | Cloud storage adapters (S3/Azure/GCS/WebDAV), AI-powered file categorization, plugin architecture, enhanced previews for superfile TUI file manager | ![Go](https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white) ||
+|||| 🔐 [**anubis-enhanced**](https://github.com/nakisisageorge/anubis-enhanced) | ![Security](https://img.shields.io/badge/Security-DC2626?style=flat-square) ![Cloud](https://img.shields.io/badge/Cloud-0891B2?style=flat-square) | Real-time observability dashboard, policy validation CLI, enhanced metrics, deployment hardening for Anubis AI firewall | ![Go](https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white) ||
+||| 🏦 [**blnk-enhanced**](https://github.com/nakisisageorge/blnk-enhanced) | ![FinTech](https://img.shields.io/badge/FinTech-10B981?style=flat-square) ![AI](https://img.shields.io/badge/AI-7C3AED?style=flat-square) | AI-powered transaction categorization for Blnk ledger with African mobile money support, confidence scoring, and extensible ML integration | ![Go](https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white) ||
+|| 🔐 [**fallow-ai-security**](https://github.com/nakisisageorge/fallow-ai-security) | ![Security](https://img.shields.io/badge/Security-DC2626?style=flat-square) ![AI](https://img.shields.io/badge/AI-7C3AED?style=flat-square) | AI-enhanced security analysis with LLM-specific rules, compliance reporting, and AI verification | ![Rust](https://img.shields.io/badge/Rust-000000?style=flat-square&logo=rust&logoColor=white) ![TS](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white) ||
+|| 🏥 [**QFlow Simulator**](https://github.com/nakisisageorge/qflow-simulator) | ![Healthcare](https://img.shields.io/badge/Healthcare-EF4444?style=flat-square) | Smart virtual queue simulation and patient-flow management | ![TS](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white) ||
+|| 🏛️ [**PTAAU Hub**](https://github.com/nakisisageorge/ptaau-hub) | ![Institutional](https://img.shields.io/badge/Institutional-F59E0B?style=flat-square) | Digital platform for a national association | ![TS](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white) ||
+|| 🚨 [**Health Hazard Communication System**](https://github.com/nakisisageorge/ENHANCED-COMMUNICATION-SYSTEM-FOR-EFFECTIVE-HEALTH-HAZARD-PREPAREDNESS-AND-CONTAINMENT) | ![Public Health](https://img.shields.io/badge/Public_Health-10B981?style=flat-square) | Real-time health-hazard communication and stakeholder coordination | ![PHP](https://img.shields.io/badge/PHP-777BB4?style=flat-square&logo=php&logoColor=white) ||
+|| 🩺 [**Ascendmend**](https://github.com/nakisisageorge/asecendmend) | ![Healthcare](https://img.shields.io/badge/Healthcare-EF4444?style=flat-square) | Clinical and healthcare platform frontend | ![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black) ![TS](https://img.shields.io/badge/TS-3178C6?style=flat-square&logo=typescript&logoColor=white) ||
+|| 🔬 [**laya-africa-evals**](https://github.com/nakisisageorge/laya-africa-evals) | ![AI](https://img.shields.io/badge/AI-7C3AED?style=flat-square) ![Analytics](https://img.shields.io/badge/Analytics-0891B2?style=flat-square) ![Security](https://img.shields.io/badge/Security-DC2626?style=flat-square) | Independent evaluation suite for the laya System-1 decision engine: African-language triage datasets, prompt-injection guard robustness harness, and evaluation runners | ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ||
 
 <!-- ===================== AI ===================== -->
 ## 🤖 AI Engineering
@@ -294,14 +268,14 @@ Technology in Africa requires more than reproducing systems designed for other m
 <!-- ===================== DOMAINS & PRIORITIES ===================== -->
 ## 🎯 Domain Expertise
 
-| | Domain | Focus |
-|:--:|:--|:--|
-| 🏥 | **Healthcare** | Digital health platforms, emergency response, patient workflows, clinical systems, healthcare operations |
-| 🚚 | **Logistics** | Freight operations, delivery platforms, mobility systems, tracking, operational intelligence |
-| 🛒 | **Commerce** | Marketplaces, e-commerce, merchant systems, payments, multi-sided platforms |
-| 🎓 | **Education** | School management, learning platforms, digital training, institutional systems |
-| 🏢 | **Enterprise** | CRM, ERP-style platforms, workflow automation, reporting, business intelligence |
-| 🏛️ | **Public Systems** | Stakeholder coordination, communication platforms, data systems, operational digitization |
+|| | Domain | Focus ||
+||:--:|:--|:--||
+|| 🏥 | **Healthcare** | Digital health platforms, emergency response, patient workflows, clinical systems, healthcare operations ||
+|| 🚚 | **Logistics** | Freight operations, delivery platforms, mobility systems, tracking, operational intelligence ||
+|| 🛒 | **Commerce** | Marketplaces, e-commerce, merchant systems, payments, multi-sided platforms ||
+|| 🎓 | **Education** | School management, learning platforms, digital training, institutional systems ||
+|| 🏢 | **Enterprise** | CRM, ERP-style platforms, workflow automation, reporting, business intelligence ||
+|| 🏛️ | **Public Systems** | Stakeholder coordination, communication platforms, data systems, operational digitization ||
 
 ### 📈 Engineering Priorities
 
@@ -344,44 +318,26 @@ Technology in Africa requires more than reproducing systems designed for other m
 * AI-assisted meeting intelligence and workflow automation
 * Secure multi-tenant platforms for African enterprises
 * Production systems that stay reliable under real-world constraints
-* **omni-tools-enhanced** — Search-filter bug fix (upstream #227), Unit Converter (10 categories incl. affine temperature), Data Transfer Time Calculator (overhead-aware), and a zero-dependency MCP server exposing 15 toolbox tools to AI agents for omni-tools (Mode B enhancement) <span class="badge badge-new">PUBLISHED</span>
-  * Fixed homepage search ignoring the user-type filter, including localStorage-restored state (upstream #227)
-  * Unit Converter: length, mass, temperature (affine + absolute-zero checks), area, volume, speed, time, pressure, energy, power (upstream #79)
-  * Data Transfer Time Calculator: b…TiB sizes, bps…Gbps bandwidth, protocol-overhead modeling, humanized output (upstream #80)
-  * MCP stdio server: JSON-RPC 2.0, protocol-version negotiation, JSON-Schema argument validation, 15 tools wrapping the same pure service functions as the web UI (upstream #177)
-  * Fork-owned CI: dual typecheck + 741 passing tests + production build + GitHub Pages deploy
-  * Stack: TypeScript, React 18, MUI, Vite, Node.js (zero-dep MCP), GitHub Actions/Pages
-* **agent-device-enhanced** — AI-powered selector generation, Android snapshot optimization, streaming MCP server, AI screen recording with evidence extraction, security scanning, interactive architecture docs for agent-device mobile automation (Mode B enhancement) <span class="badge badge-new">PUBLISHED</span>
-  * AI-powered selector generation with LLM assistance (OpenAI/Anthropic/Groq/Google) and confidence scoring
-  * Android snapshot performance optimization (<2s target via caching + batched geometry calls)
-  * Streaming MCP server with progress updates and rich tool metadata
-  * AI screen recording: automatic highlight detection, evidence extraction, replay script generation
-  * Security scanning: credential/PII detection, insecure storage audit, certificate pinning verification
-  * Interactive React Flow architecture visualization
-  * Interactive REPL with time-travel debugging
-  * Stack: TypeScript, Node.js 22.12+, Vercel AI SDK, React Flow, pnpm monorepo
-* **superfile-enhanced** — Cloud storage adapters (S3/Azure/GCS/WebDAV), AI-powered file categorization, plugin architecture, enhanced previews for superfile TUI file manager (Mode B enhancement) <span class="badge badge-new">PUBLISHED</span>
-  * Cloud storage provider interface with S3, Azure Blob, GCS, WebDAV implementations
-  * Rule-based AI file categorization with African mobile money receipt detection
-  * Plugin architecture foundation for extensibility
-  * Enhanced file previews: syntax highlighting, images, PDFs, archives
-  * Semantic search with ripgrep integration
-  * Stack: Go, Bubble Tea, Lipgloss, AWS SDK, Azure SDK, Google Cloud SDK
-
-### 📌 Latest
-* Latest (2026-10-15): Published omni-tools-enhanced — search-filter bug fix (upstream #227), Unit Converter + Data Transfer Time tools, zero-dependency MCP server exposing 15 tools to AI agents, fork CI with GitHub Pages demo
-* Latest (2026-10-13): Building agent-device-enhanced — AI-powered selector generation, Android snapshot optimization, streaming MCP server, AI screen recording, security scanning, interactive architecture docs for mobile automation
-* Latest (2026-10-12): Published superfile-enhanced — Cloud storage adapters (S3/Azure/GCS/WebDAV), AI-powered file categorization, plugin architecture, enhanced previews, semantic search for superfile TUI file manager
-* Latest (2026-10-11): Published anubis-enhanced — Real-time observability dashboard, policy validation CLI, enhanced Prometheus metrics, healthcheck fixes, complete i18n (12 languages), deployment hardening for Anubis AI firewall
-
-### 📚 Always Learning
-Software architecture · AI · Cloud engineering · Cybersecurity · Distributed systems · DevOps · Data engineering · Product engineering · Digital transformation
+* **laya-africa-evals** — Independent evaluation suite for the laya System-1 decision engine: African-language triage datasets (Swahili, Luganda, Amharic, Hausa, Yoruba, English control, code-switch), prompt-injection guard robustness harness, mock + live checkpoint runners, comprehensive documentation, **GitHub Actions CI/CD pipeline with lint, typecheck, tests, build, security scanning** (Mode A independent implementation) <span class="badge badge-new">PUBLISHED</span>
+* Interactive architecture visualization
+* GitHub Actions CI/CD pipeline
 
 </td>
 </tr>
 </table>
 
-> My technical foundation combines formal IT education, software engineering training, cloud computing, business computing and continuous hands-on engineering. Expertise is built through **formal education, continuous learning, experimentation and shipping real systems**.
+<!-- ===================== LATEST ===================== -->
+### 📌 Latest
+* Latest (2026-10-18): Completed laya-africa-evals — Independent evaluation suite for laya System-1 decision engine with African-language triage datasets, prompt-injection guard robustness harness, GitHub Actions CI/CD pipeline (lint, typecheck, tests, build, security), 30 passing tests, proper package structure
+* Latest (2026-10-17): Published laya-africa-evals — Independent evaluation suite for laya System-1 decision engine with African-language triage datasets, prompt-injection guard robustness harness, and evaluation runners (IN PROGRESS - core components complete)
+* Latest (2026-10-15): Published omni-tools-enhanced — search-filter bug fix (upstream #227), Unit Converter + Data Transfer Time tools, zero-dependency MCP server exposing 15 tools to AI agents, fork CI with GitHub Pages demo
+* Latest (2026-10-13): Building agent-device-enhanced — AI-powered selector generation, Android snapshot optimization, streaming MCP server, AI screen recording, security scanning, interactive architecture docs for mobile automation
+* Latest (2026-10-12): Published superfile-enhanced — Cloud storage adapters (S3/Azure/GCS/WebDAV), AI-powered file categorization, plugin architecture, enhanced previews, semantic search for superfile TUI file manager
+* Latest (2026-10-11): Published anubis-enhanced — Real-time observability dashboard, policy validation CLI, enhanced Prometheus metrics, healthcheck fixes, complete i18n (12 languages), deployment hardening for Anubis AI firewall
+
+<!-- ===================== ALWAYS LEARNING ===================== -->
+### 📚 Always Learning
+Software architecture · AI · Cloud engineering · Cybersecurity · Distributed systems · DevOps · Data engineering · Product engineering · Digital transformation
 
 <img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=6,11,20&height=3&section=header" width="100%" alt=""/>
 
@@ -418,29 +374,32 @@ I'm interested in collaborating on:
 
 <br/>
 
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=nakisisageorge&theme=github_dark" width="100%" alt="Profile details"/>
-
+<img height="165" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=nakisisageorge&theme=github_dark" width="100%" alt="Profile details"/>
 <img height="165" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=nakisisageorge&theme=github_dark" alt="Stats card"/>
 <img height="165" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=nakisisageorge&theme=github_dark" alt="Repos per language"/>
 <img height="165" src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=nakisisageorge&theme=github_dark&utcOffset=3" alt="Productive time"/>
 
 </div>
 
+<div align="center">
+
 <img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=6,11,20&height=3&section=header" width="100%" alt=""/>
+
+</div>
 
 <!-- ===================== CONTACT ===================== -->
 ## 📫 Let's Connect
 
 <div align="center">
 
-| Channel | Details |
-|:--|:--|
-| 📧 **Email** | [nakisisageorge@gmail.com](mailto:nakisisageorge@gmail.com) |
-| 🌐 **Website** | [gictafrica.com](https://gictafrica.com) |
-| 💻 **GitHub** | [github.com/nakisisageorge](https://github.com/nakisisageorge) |
-| 𝕏 **X** | [@gictafrica](https://x.com/gictafrica) |
-| 📍 **Location** | Kampala, Uganda 🇺🇬 |
-| 🏢 **Company** | GICT Africa Technologies |
+|| Channel | Details ||
+||:--|:--||
+|| 📧 **Email** | [nakisisageorge@gmail.com](mailto:nakisisageorge@gmail.com) ||
+|| 🌐 **Website** | [gictafrica.com](https://gictafrica.com) ||
+|| 💻 **GitHub** | [github.com/nakisisageorge](https://github.com/nakisisageorge) ||
+|| 𝕏 **X** | [@gictafrica](https://x.com/gictafrica) ||
+|| 📍 **Location** | Kampala, Uganda 🇺🇬 ||
+|| 🏢 **Company** | GICT Africa Technologies ||
 
 <br/>
 
@@ -453,6 +412,8 @@ I'm interested in collaborating on:
 ![Digital Transformation](https://img.shields.io/badge/Digital_Transformation-16A34A?style=flat-square)
 
 *"Ship fast. Secure by design. Measure what matters."*
+
+</div>
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=140&section=footer" width="100%" alt=""/>
 
