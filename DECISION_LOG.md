@@ -1,0 +1,34 @@
+### 2026-10-19
+- Candidates considered:
+  - google/magika — 48/50 — AI-powered file type detection (Rust/Python, Apache-2.0, 18.7k★, pushed 2026-10-15)
+  - projectdiscovery/katana — 41/50 — Next-gen crawling/spidering framework (Go, MIT, 17.6k★, pushed 2026-10-13)
+  - darrenburns/posting — 45/50 — Terminal API client like Postman (Go/Python, Apache-2.0, 12.5k★, pushed 2026-10-16)
+  - cocoindex-io/cocoindex — 47/50 — Incremental engine for long-horizon agents (Rust/Python, Apache-2.0, 11.7k★, pushed 2026-10-19)
+  - pacifio/atlas — 44/50 — Source control for agents (Rust, Apache-2.0, 9.6k★, pushed 2026-10-19)
+- Selected: google/magika (AI-powered file type detection)
+- Mode: A (Independent enhancement — create enhanced Python bindings, custom rules engine, MCP server, benchmarks, interactive docs)
+- Score summary: 48/50
+  - Momentum 5/5 (active development, pushed 2026-10-15, 18.7k stars)
+  - Improvement potential 5/5 (async Python API, custom rules, MCP server, benchmarks, interactive docs)
+  - Portfolio fit 5/5 (AI Engineer + Rust Systems + Data Engineering + Security relevance)
+  - License freedom 5/5 (Apache-2.0, permissive)
+  - Complexity fit 4/5 (well-structured, Python bindings manageable, ~5 hours for core enhancements)
+  - Demo potential 4/5 (CLI accuracy benchmarks, file detection demo, MCP server demo)
+  - Documentation/case-study potential 5/5 (architecture visualization, before/after, design doc)
+  - Category diversification 5/5 (Rust Systems + AI File Detection + Data Engineering — new categories)
+  - Security/AI learning value 5/5 (AI/ML model for file detection, security-relevant for malware analysis/DLP)
+  - Legal/ethical safety 5/5 (Apache-2.0, Google project, benign file detection)
+- Why selected:
+  - hermers.md §97: prefer projects with real security depth and applied AI usefulness
+  - hermers.md §148-158: category rotation — Rust Systems / Data Engineering / AI Infrastructure not covered in last 7 days
+  - Strong alignment with portfolio goals: AI engineering (ML model), security (file detection for malware/DLP), Rust systems programming
+  - Clear, well-scoped improvement opportunities: async Python API, custom rules engine, MCP server for AI agents, performance benchmarks
+  - Apache-2.0 license allows independent enhancement and redistribution
+  - Project is mature but has documented gaps (issues #1499, #1537, #1548, #1472, #1473)
+- Why others rejected:
+  - katana: headless crawling bugs are deep architectural issues; security category already covered by fallow-ai-security
+  - posting: developer tools category overlaps with superfile-enhanced (TUI); less AI/security depth
+  - cocoindex: complex incremental engine; Rust SDK ergonomics work is deep architectural; risk of scope explosion
+  - atlas: AI agent tooling overlaps with agent-device-enhanced; smaller community
+- Category focus: AI/ML File Detection, Rust Systems Programming, Data Engineering, Security (malware analysis, DLP), Developer Tools
+- Outcome: IN PROGRESS — Starting independent enhancement of magika with enhanced Python bindings, custom rules engine, MCP server, benchmarks, and comprehensive documentation
