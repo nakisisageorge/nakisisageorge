@@ -1,34 +1,59 @@
-### 2026-10-19
+### 2026-11-09
+- Continued work on infracost-enhanced (started 2026-11-08)
+- Added comprehensive test suites for all new packages:
+  - internal/africa: 12 tests (regions, currency, mobile money)
+  - internal/anomaly: 13 tests (detector config, spike/creep/unused detection, statistics)
+  - internal/benchmark: 9 tests (config, runner, regression detection)
+  - internal/mcp: 10 tests (server, session, rate limiter, auth, HTTP handlers, MCP protocol)
+- Created enhanced CI/CD pipeline (.github/workflows/enhanced-ci.yml) with:
+  - govulncheck for Go vulnerability scanning
+  - TruffleHog for secret detection
+  - SBOM generation (CycloneDX)
+  - Dependency review with fail-on-severity
+  - gosec static security analysis
+  - Benchmark regression detection
+  - Architecture visualization build
+  - Multi-platform Docker build
+- Added security configuration files (.govulncheck.yaml, dependency-review-config.yml)
+- Updated SECURITY.md with threat model and compliance information
+- Published to nakisisageorge/infracost-enhanced with topics and description
+- All tests passing (44 new tests across 4 packages)
+- Mode: B (Substantial Enhancement Fork - Apache-2.0)
+- Status: PUBLISHED
+
+### 2026-11-08
 - Candidates considered:
-  - google/magika — 48/50 — AI-powered file type detection (Rust/Python, Apache-2.0, 18.7k★, pushed 2026-10-15)
-  - projectdiscovery/katana — 41/50 — Next-gen crawling/spidering framework (Go, MIT, 17.6k★, pushed 2026-10-13)
-  - darrenburns/posting — 45/50 — Terminal API client like Postman (Go/Python, Apache-2.0, 12.5k★, pushed 2026-10-16)
-  - cocoindex-io/cocoindex — 47/50 — Incremental engine for long-horizon agents (Rust/Python, Apache-2.0, 11.7k★, pushed 2026-10-19)
-  - pacifio/atlas — 44/50 — Source control for agents (Rust, Apache-2.0, 9.6k★, pushed 2026-10-19)
-- Selected: google/magika (AI-powered file type detection)
-- Mode: A (Independent enhancement — create enhanced Python bindings, custom rules engine, MCP server, benchmarks, interactive docs)
-- Score summary: 48/50
-  - Momentum 5/5 (active development, pushed 2026-10-15, 18.7k stars)
-  - Improvement potential 5/5 (async Python API, custom rules, MCP server, benchmarks, interactive docs)
-  - Portfolio fit 5/5 (AI Engineer + Rust Systems + Data Engineering + Security relevance)
-  - License freedom 5/5 (Apache-2.0, permissive)
-  - Complexity fit 4/5 (well-structured, Python bindings manageable, ~5 hours for core enhancements)
-  - Demo potential 4/5 (CLI accuracy benchmarks, file detection demo, MCP server demo)
-  - Documentation/case-study potential 5/5 (architecture visualization, before/after, design doc)
-  - Category diversification 5/5 (Rust Systems + AI File Detection + Data Engineering — new categories)
-  - Security/AI learning value 5/5 (AI/ML model for file detection, security-relevant for malware analysis/DLP)
-  - Legal/ethical safety 5/5 (Apache-2.0, Google project, benign file detection)
+  - infracost/infracost — 49/50 — Cloud cost intelligence for engineers, AI coding agents, and CI/CD, 12,613★, Apache-2.0, pushed 2026-11-03
+  - encoredev/encore — 39/50 — Infrastructure orchestration from local to cloud, 12,698★, MPL-2.0, pushed 2026-11-06
+  - microsoft/markitdown — 42/50 — Python tool for converting files and office documents to Markdown, 194,348★, MIT, pushed 2026-11-07
+  - morluto/rea — 41/50 — Reverse engineer anything with agents, from app behavior down to native binaries, 441,565★, MIT, pushed 2026-11-08
+  - n8n-io/n8n — 35/50 — Fair-code workflow automation platform with native AI capabilities, 209,789★, Custom fair-code license, pushed 2026-11-08
+  - metabase/metabase — 36/50 — Open source Business Intelligence and Embedded Analytics tool, 50,225★, NOASSERTION license, pushed 2026-11-08
+- Selected: infracost/infracost
+- Mode: B (Substantial Enhancement Fork — Apache-2.0 permissive license)
+- Score summary: 49/50
+  - Momentum 5/5 (12,613 stars, pushed 2026-11-03, active development with daily commits, 400+ contributors)
+  - Improvement potential 5/5 (African cloud cost models for AWS/GCP/Azure Africa regions, mobile money transaction cost tracking, multi-currency support for African currencies (NGN, KES, ZAR, GHS, UGX, XOF, XAF, EGP, MAD, TZS), AI-powered cost anomaly detection for FinOps security, MCP server for cost queries by AI agents, benchmark suite with regression detection, interactive architecture visualization, comprehensive documentation suite)
+  - Portfolio fit 5/5 (NEW category: Cloud/DevOps + FinOps / Cloud Cost Intelligence, Go + TypeScript polyglot, MCP server, benchmarks, strong alignment with AI Engineering + Cybersecurity + Senior delivery + African Technology)
+  - License freedom 5/5 (Apache-2.0, fully permissive for fork/enhancement/redistribution with attribution)
+  - Complexity fit 4/5 (Mature Go codebase with clear extension points: cost models per provider, resource parsers, CLI commands, API server, CI/CD integrations, dashboard)
+  - Demo potential 5/5 (CLI cost estimates for Terraform/CloudFormation/Kubernetes, CI/CD pipeline integration, live dashboard, MCP server demo, before/after African cloud cost comparisons)
+  - Documentation/case-study potential 5/5 (Architecture viz, before/after, case study, interactive tree, MCP guide, benchmark reports)
+  - Category diversification 5/5 (Cloud/DevOps + FinOps — COMPLETELY NEW category for portfolio; last 7 days: AI Context Engineering, 3D CAD, Web App, AI Security, Desktop, Mobile, AI Security)
+  - Security/AI learning value 5/5 (Cost anomaly detection as security signal, AI coding agent cost governance, FinOps security, multi-tenant cost isolation, supply chain cost analysis)
+  - Legal/ethical safety 5/5 (Apache-2.0, cost optimization focus, no data exfiltration, responsible FinOps)
 - Why selected:
-  - hermers.md §97: prefer projects with real security depth and applied AI usefulness
-  - hermers.md §148-158: category rotation — Rust Systems / Data Engineering / AI Infrastructure not covered in last 7 days
-  - Strong alignment with portfolio goals: AI engineering (ML model), security (file detection for malware/DLP), Rust systems programming
-  - Clear, well-scoped improvement opportunities: async Python API, custom rules engine, MCP server for AI agents, performance benchmarks
-  - Apache-2.0 license allows independent enhancement and redistribution
-  - Project is mature but has documented gaps (issues #1499, #1537, #1548, #1472, #1473)
+  - hermers.md §148-158: Category rotation — Cloud/DevOps + FinOps not covered in portfolio (last 7 days: AI Context Engineering, 3D CAD, Web App, AI Security, Desktop/DB, Mobile/API, AI Security)
+  - Strong alignment with portfolio goals: Senior Software Engineering (Go workspace, CLI, API server, CI/CD integrations, dashboard), AI Engineering (AI coding agent cost governance, MCP server for cost queries, cost anomaly detection), Cybersecurity (Cost anomaly detection as FinOps security signal, multi-tenant cost isolation, supply chain cost analysis), African Technology (African cloud regions cost models, mobile money transaction cost tracking, multi-currency support for 10+ African currencies, emerging market cost optimization)
+  - Clear, well-scoped improvement opportunities: African cloud provider cost models (AWS Africa Cape Town, Azure South Africa, GCP Johannesburg), mobile money transaction cost tracking (M-Pesa, MTN MoMo, Airtel Money, Orange Money, Vodacom M-Pesa, etc.), multi-currency support (NGN, KES, ZAR, GHS, UGX, XOF, XAF, EGP, MAD, TZS), AI-powered cost anomaly detection, MCP server (stdio + HTTP/SSE), benchmark regression detection suite, interactive architecture visualization (React Flow), comprehensive documentation suite, enhanced CI/CD with security scanning
+  - Go + TypeScript polyglot stack demonstrates senior engineering breadth
+  - Built-in CLI, API server, CI/CD integrations, dashboard, Terraform/CloudFormation/Kubernetes parsers provide immediate foundation for signature enhancement pattern
+  - Project is mature with active maintenance, comprehensive test suite, production-ready, used by major companies
 - Why others rejected:
-  - katana: headless crawling bugs are deep architectural issues; security category already covered by fallow-ai-security
-  - posting: developer tools category overlaps with superfile-enhanced (TUI); less AI/security depth
-  - cocoindex: complex incremental engine; Rust SDK ergonomics work is deep architectural; risk of scope explosion
-  - atlas: AI agent tooling overlaps with agent-device-enhanced; smaller community
-- Category focus: AI/ML File Detection, Rust Systems Programming, Data Engineering, Security (malware analysis, DLP), Developer Tools
-- Outcome: IN PROGRESS — Starting independent enhancement of magika with enhanced Python bindings, custom rules engine, MCP server, benchmarks, and comprehensive documentation
+  - encoredev/encore: Excellent infrastructure orchestration but MPL-2.0 license has copyleft implications for enhancements, complex compiler/runtime architecture harder to meaningfully extend in 5 hours
+  - microsoft/markitdown: Strong document processing but DevTools/AI category partially covered by magika-enhanced (2026-10-19), less direct FinOps/security alignment
+  - morluto/rea: Impressive reverse engineering with agents but very large complex codebase (Android, native binaries, multi-language), dual-use security concerns, scope too large for quality 5-hour window
+  - n8n-io/n8n: Custom fair-code license (not standard OSI-approved), restrictive for commercial fork/enhancement, workflow automation category overlaps with existing MCP server work
+  - metabase/metabase: Clojure codebase (not in preferred stack), NOASSERTION license unclear, BI category but very large monolith
+- Category focus: Cloud/DevOps + FinOps / Cloud Cost Intelligence, Go/TypeScript Polyglot, MCP Server Implementation (stdio + HTTP/SSE), African Cloud Cost Models (10+ currencies, 3 major cloud providers Africa regions), Mobile Money Transaction Cost Tracking, AI-Powered Cost Anomaly Detection, Benchmark Regression Detection, Interactive Architecture Visualization (React Flow), Comprehensive Documentation Suite, Multi-language CI/CD Pipeline (go vet, golangci-lint, govulncheck, SBOM, TruffleHog, npm audit for dashboard), FinOps Security Hardening
+- Outcome: IN PROGRESS
