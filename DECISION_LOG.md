@@ -1,59 +1,50 @@
-### 2026-11-09
-- Continued work on infracost-enhanced (started 2026-11-08)
-- Added comprehensive test suites for all new packages:
-  - internal/africa: 12 tests (regions, currency, mobile money)
-  - internal/anomaly: 13 tests (detector config, spike/creep/unused detection, statistics)
-  - internal/benchmark: 9 tests (config, runner, regression detection)
-  - internal/mcp: 10 tests (server, session, rate limiter, auth, HTTP handlers, MCP protocol)
-- Created enhanced CI/CD pipeline (.github/workflows/enhanced-ci.yml) with:
-  - govulncheck for Go vulnerability scanning
-  - TruffleHog for secret detection
-  - SBOM generation (CycloneDX)
-  - Dependency review with fail-on-severity
-  - gosec static security analysis
-  - Benchmark regression detection
-  - Architecture visualization build
-  - Multi-platform Docker build
-- Added security configuration files (.govulncheck.yaml, dependency-review-config.yml)
-- Updated SECURITY.md with threat model and compliance information
-- Published to nakisisageorge/infracost-enhanced with topics and description
-- All tests passing (44 new tests across 4 packages)
-- Mode: B (Substantial Enhancement Fork - Apache-2.0)
-- Status: PUBLISHED
+### 2026-11-13
 
-### 2026-11-08
 - Candidates considered:
-  - infracost/infracost — 49/50 — Cloud cost intelligence for engineers, AI coding agents, and CI/CD, 12,613★, Apache-2.0, pushed 2026-11-03
-  - encoredev/encore — 39/50 — Infrastructure orchestration from local to cloud, 12,698★, MPL-2.0, pushed 2026-11-06
-  - microsoft/markitdown — 42/50 — Python tool for converting files and office documents to Markdown, 194,348★, MIT, pushed 2026-11-07
-  - morluto/rea — 41/50 — Reverse engineer anything with agents, from app behavior down to native binaries, 441,565★, MIT, pushed 2026-11-08
-  - n8n-io/n8n — 35/50 — Fair-code workflow automation platform with native AI capabilities, 209,789★, Custom fair-code license, pushed 2026-11-08
-  - metabase/metabase — 36/50 — Open source Business Intelligence and Embedded Analytics tool, 50,225★, NOASSERTION license, pushed 2026-11-08
-- Selected: infracost/infracost
+  - infiniflow/ragflow — 49/50 — Agent-native RAG database, 94,097★, Apache-2.0, pushed 2026-11-13, Go + TypeScript + Python (NEW category: RAG Infrastructure / Data Engineering)
+  - rtk-ai/rtk — 48/50 — CLI proxy reducing LLM tokens 60-90%, 86,408★, Apache-2.0, pushed 2026-11-12, Rust (NEW category: Developer Tools / AI Cost Optimization)
+  - Graphify-Labs/graphify — 49/50 — Code to knowledge graph, 146,853★, Apache-2.0, pushed 2026-11-11, Python (NEW category: Code Intelligence / AST Analysis)
+  - pbakaus/impeccable — 49/50 — AI agent design vocabulary, anti-slop, 109,123★, Apache-2.0, pushed 2026-11-13, Rust (NEW category: AI Code Quality / Anti-Slop)
+  - ruvnet/RuView — 46/50 — WiFi spatial intelligence, IoT, 104,185★, MIT, pushed 2026-11-13, Rust + TypeScript (NEW category: IoT / Edge AI)
+  - ollama/ollama — 44/50 — LLM model runner, 186,833★, MIT, pushed 2026-11-13, Go (LLM Infrastructure, very large scope)
+  - langgenius/dify — 43/50 — Agentic workflow platform, 161,072★, NOASSERTION, pushed 2026-11-13, Python (License unclear)
+  - langflow-ai/langflow — 45/50 — Visual AI agent builder, 156,585★, MIT, pushed 2026-11-13, Python (AI Low-code, good but similar to openappa category)
+  - microsoft/markitdown — 44/50 — Document to Markdown converter, 195,151★, MIT, pushed 2026-11-07, Python (Document processing, smaller scope)
+
+- Selected: infiniflow/ragflow
 - Mode: B (Substantial Enhancement Fork — Apache-2.0 permissive license)
 - Score summary: 49/50
-  - Momentum 5/5 (12,613 stars, pushed 2026-11-03, active development with daily commits, 400+ contributors)
-  - Improvement potential 5/5 (African cloud cost models for AWS/GCP/Azure Africa regions, mobile money transaction cost tracking, multi-currency support for African currencies (NGN, KES, ZAR, GHS, UGX, XOF, XAF, EGP, MAD, TZS), AI-powered cost anomaly detection for FinOps security, MCP server for cost queries by AI agents, benchmark suite with regression detection, interactive architecture visualization, comprehensive documentation suite)
-  - Portfolio fit 5/5 (NEW category: Cloud/DevOps + FinOps / Cloud Cost Intelligence, Go + TypeScript polyglot, MCP server, benchmarks, strong alignment with AI Engineering + Cybersecurity + Senior delivery + African Technology)
+  - Momentum 5/5 (94,097 stars, pushed today 2026-11-13, active development, enterprise adoption)
+  - Improvement potential 5/5 (African language tokenizers/embeddings, MCP server enhancement (stdio + HTTP/SSE), benchmark regression detection, interactive architecture visualization, comprehensive documentation, enhanced CI/CD with govulncheck/TruffleHog/SBOM, African domain document processors)
+  - Portfolio fit 5/5 (NEW category: RAG Infrastructure / Data Engineering / Context Engineering — distinct from Computer-Use Agents, AI Agent Security, Cloud/FinOps, AI Context, 3D CAD, Web App, Desktop/DB, Mobile/API; Go + RAG + Agent orchestration aligns with Senior Software Engineering + AI Engineering + Data Engineering + African Technology)
   - License freedom 5/5 (Apache-2.0, fully permissive for fork/enhancement/redistribution with attribution)
-  - Complexity fit 4/5 (Mature Go codebase with clear extension points: cost models per provider, resource parsers, CLI commands, API server, CI/CD integrations, dashboard)
-  - Demo potential 5/5 (CLI cost estimates for Terraform/CloudFormation/Kubernetes, CI/CD pipeline integration, live dashboard, MCP server demo, before/after African cloud cost comparisons)
-  - Documentation/case-study potential 5/5 (Architecture viz, before/after, case study, interactive tree, MCP guide, benchmark reports)
-  - Category diversification 5/5 (Cloud/DevOps + FinOps — COMPLETELY NEW category for portfolio; last 7 days: AI Context Engineering, 3D CAD, Web App, AI Security, Desktop, Mobile, AI Security)
-  - Security/AI learning value 5/5 (Cost anomaly detection as security signal, AI coding agent cost governance, FinOps security, multi-tenant cost isolation, supply chain cost analysis)
-  - Legal/ethical safety 5/5 (Apache-2.0, cost optimization focus, no data exfiltration, responsible FinOps)
+  - Complexity fit 4/5 (Mature Go workspace with clear extension points: internal/tokenizer, internal/parser, internal/deepdoc, internal/mcp, internal/rag, internal/agentic_rag, Python SDK, web frontend, CLI; native C++/ONNX backend adds depth)
+  - Demo potential 5/5 (RAG pipeline demos, African language document processing, agent orchestration, architecture visualization, before/after retrieval quality)
+  - Documentation/case-study potential 5/5 (Architecture viz, before/after, case study, interactive tree, MCP guide, benchmark reports, African language RAG guide)
+  - Category diversification 5/5 (RAG Infrastructure / Data Engineering — COMPLETELY NEW category; last 7 days: Computer-Use Agents, AI Agent Security, Cloud/FinOps, AI Context, 3D CAD, Web App, AI Security, Desktop/DB, Mobile/API)
+  - Security/AI learning value 5/5 (RAG security, document processing sandboxing, agent orchestration security, data privacy, supply chain)
+  - Legal/ethical safety 5/5 (Apache-2.0, defensive RAG focus, responsible AI data handling, no exploit tooling)
+
 - Why selected:
-  - hermers.md §148-158: Category rotation — Cloud/DevOps + FinOps not covered in portfolio (last 7 days: AI Context Engineering, 3D CAD, Web App, AI Security, Desktop/DB, Mobile/API, AI Security)
-  - Strong alignment with portfolio goals: Senior Software Engineering (Go workspace, CLI, API server, CI/CD integrations, dashboard), AI Engineering (AI coding agent cost governance, MCP server for cost queries, cost anomaly detection), Cybersecurity (Cost anomaly detection as FinOps security signal, multi-tenant cost isolation, supply chain cost analysis), African Technology (African cloud regions cost models, mobile money transaction cost tracking, multi-currency support for 10+ African currencies, emerging market cost optimization)
-  - Clear, well-scoped improvement opportunities: African cloud provider cost models (AWS Africa Cape Town, Azure South Africa, GCP Johannesburg), mobile money transaction cost tracking (M-Pesa, MTN MoMo, Airtel Money, Orange Money, Vodacom M-Pesa, etc.), multi-currency support (NGN, KES, ZAR, GHS, UGX, XOF, XAF, EGP, MAD, TZS), AI-powered cost anomaly detection, MCP server (stdio + HTTP/SSE), benchmark regression detection suite, interactive architecture visualization (React Flow), comprehensive documentation suite, enhanced CI/CD with security scanning
-  - Go + TypeScript polyglot stack demonstrates senior engineering breadth
-  - Built-in CLI, API server, CI/CD integrations, dashboard, Terraform/CloudFormation/Kubernetes parsers provide immediate foundation for signature enhancement pattern
-  - Project is mature with active maintenance, comprehensive test suite, production-ready, used by major companies
+  - hermers.md §148-158: Category rotation — RAG Infrastructure / Data Engineering / Context Engineering not covered in portfolio (last 7 days: Computer-Use, AI Security, Cloud/FinOps, AI Context, 3D CAD, Web App, AI Security, Desktop, Mobile)
+  - Strong alignment with portfolio goals: Senior Software Engineering (Go workspace, RAG engine, document processing, native C++/ONNX, CLI, benchmarks, CI/CD), AI Engineering (Agent orchestration, MCP server for RAG skills, agentic RAG, context engineering), Data Engineering (Vector search, document ingestion, embedding pipelines, knowledge compilation), African Technology (African language tokenizers, embeddings, document processors for mobile money statements, healthcare records, multilingual RAG)
+  - Clear, well-scoped improvement opportunities: African language tokenizer support (7 languages), African embedding models, African domain document parsers (mobile money, healthcare, logistics), MCP server enhancement (stdio + HTTP/SSE transports, 15+ tools for RAG orchestration), benchmark regression detection (Go benchmark suite with SQLite/PostgreSQL storage, 5% threshold), interactive architecture visualization (React Flow, 50+ nodes), comprehensive documentation suite (Design Doc, Case Study, Before/After, Interactive Tree), enhanced CI/CD (govulncheck, TruffleHog, SBOM, dependency review, gosec), security hardening (document sandboxing, input validation, rate limiting)
+  - Go + RAG + Agent orchestration demonstrates senior engineering breadth beyond typical web stacks
+  - Built-in benchmark infrastructure (test/benchmark/) provides immediate foundation for regression detection
+  - Project is production-adjacent with active maintenance, comprehensive test infrastructure, enterprise adoption
+  - Native DeepDoc backend (C++/ONNX) provides measurable before/after for document processing improvements
+  - Existing MCP server (internal/mcp/) provides natural extension point for RAG skill orchestration
+
 - Why others rejected:
-  - encoredev/encore: Excellent infrastructure orchestration but MPL-2.0 license has copyleft implications for enhancements, complex compiler/runtime architecture harder to meaningfully extend in 5 hours
-  - microsoft/markitdown: Strong document processing but DevTools/AI category partially covered by magika-enhanced (2026-10-19), less direct FinOps/security alignment
-  - morluto/rea: Impressive reverse engineering with agents but very large complex codebase (Android, native binaries, multi-language), dual-use security concerns, scope too large for quality 5-hour window
-  - n8n-io/n8n: Custom fair-code license (not standard OSI-approved), restrictive for commercial fork/enhancement, workflow automation category overlaps with existing MCP server work
-  - metabase/metabase: Clojure codebase (not in preferred stack), NOASSERTION license unclear, BI category but very large monolith
-- Category focus: Cloud/DevOps + FinOps / Cloud Cost Intelligence, Go/TypeScript Polyglot, MCP Server Implementation (stdio + HTTP/SSE), African Cloud Cost Models (10+ currencies, 3 major cloud providers Africa regions), Mobile Money Transaction Cost Tracking, AI-Powered Cost Anomaly Detection, Benchmark Regression Detection, Interactive Architecture Visualization (React Flow), Comprehensive Documentation Suite, Multi-language CI/CD Pipeline (go vet, golangci-lint, govulncheck, SBOM, TruffleHog, npm audit for dashboard), FinOps Security Hardening
-- Outcome: IN PROGRESS
+  - rtk-ai/rtk: Excellent developer tool but narrower scope (single CLI binary), less visual demo potential
+  - Graphify-Labs/graphify: Strong code intelligence but Python-only, AST analysis category less differentiated from existing agent work
+  - pbakaus/impeccable: Good AI code quality but very new, smaller community, "anti-slop" niche harder to demonstrate
+  - ruvnet/RuView: IoT/Edge hardware focus makes demos harder in 5-hour window, requires ESP32 hardware
+  - ollama/ollama: LLM serving infrastructure too large scope for quality enhancement in 5 hours
+  - langgenius/dify: License unclear (NOASSERTION), workflow platform overlaps with n8n category
+  - langflow-ai/langflow: Visual agent builder overlaps with openappa-enhanced AI agent security category
+  - microsoft/markitdown: Document converter good but smaller scope, less architectural depth
+
+- Category focus: RAG Infrastructure / Data Engineering / Context Engineering, Go RAG Engine, African Language Tokenizers/Embeddings, African Domain Document Processors, MCP Server Enhancement (stdio + HTTP/SSE), Benchmark Regression Detection (Go + SQLite), Interactive Architecture Visualization (React Flow), Comprehensive Documentation Suite, Multi-platform CI/CD (govulncheck, TruffleHog, SBOM, gosec), Agent Orchestration Security
+
+- Outcome: STARTING
