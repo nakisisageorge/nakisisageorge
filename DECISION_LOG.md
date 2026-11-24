@@ -1,59 +1,43 @@
-### 2026-11-09
-- Continued work on infracost-enhanced (started 2026-11-08)
-- Added comprehensive test suites for all new packages:
-  - internal/africa: 12 tests (regions, currency, mobile money)
-  - internal/anomaly: 13 tests (detector config, spike/creep/unused detection, statistics)
-  - internal/benchmark: 9 tests (config, runner, regression detection)
-  - internal/mcp: 10 tests (server, session, rate limiter, auth, HTTP handlers, MCP protocol)
-- Created enhanced CI/CD pipeline (.github/workflows/enhanced-ci.yml) with:
-  - govulncheck for Go vulnerability scanning
-  - TruffleHog for secret detection
-  - SBOM generation (CycloneDX)
-  - Dependency review with fail-on-severity
-  - gosec static security analysis
-  - Benchmark regression detection
-  - Architecture visualization build
-  - Multi-platform Docker build
-- Added security configuration files (.govulncheck.yaml, dependency-review-config.yml)
-- Updated SECURITY.md with threat model and compliance information
-- Published to nakisisageorge/infracost-enhanced with topics and description
-- All tests passing (44 new tests across 4 packages)
-- Mode: B (Substantial Enhancement Fork - Apache-2.0)
-- Status: PUBLISHED
+### 2026-11-23
 
-### 2026-11-08
 - Candidates considered:
-  - infracost/infracost — 49/50 — Cloud cost intelligence for engineers, AI coding agents, and CI/CD, 12,613★, Apache-2.0, pushed 2026-11-03
-  - encoredev/encore — 39/50 — Infrastructure orchestration from local to cloud, 12,698★, MPL-2.0, pushed 2026-11-06
-  - microsoft/markitdown — 42/50 — Python tool for converting files and office documents to Markdown, 194,348★, MIT, pushed 2026-11-07
-  - morluto/rea — 41/50 — Reverse engineer anything with agents, from app behavior down to native binaries, 441,565★, MIT, pushed 2026-11-08
-  - n8n-io/n8n — 35/50 — Fair-code workflow automation platform with native AI capabilities, 209,789★, Custom fair-code license, pushed 2026-11-08
-  - metabase/metabase — 36/50 — Open source Business Intelligence and Embedded Analytics tool, 50,225★, NOASSERTION license, pushed 2026-11-08
-- Selected: infracost/infracost
-- Mode: B (Substantial Enhancement Fork — Apache-2.0 permissive license)
+  - openclaw/openclaw — 49/50 — Cross-platform AI assistant (395k★, MIT, pushed 2026-11-23), TypeScript + Rust + Swift + Kotlin + Python + Go (NEW category: General AI Agent Platform / Cross-Platform Assistant)
+  - affaan-m/ECC — 49/50 — Multi-agent harness for coding agents (309k★, MIT, pushed 2026-11-23), JavaScript + Rust + Python + TypeScript (NEW category: Multi-Agent Harness / Agent Orchestration)
+  - langflow-ai/langflow — 48/50 — Visual AI workflow builder (156k★, MIT, pushed 2026-11-23), Python + TypeScript (NEW category: Visual AI Workflow Builder)
+  - ultraworkers/claw-code — 44/50 — Autonomous self-maintaining agent system (194k★, MIT, pushed 2026-11-23), Rust + Python (NEW category: Autonomous AI Agent Systems)
+  - DietrichGebert/ponytail — 43/50 — AI agent skills/prompt engineering (197k★, MIT, pushed 2026-11-22), JavaScript + TypeScript + Python (Agent Skills / Prompt Engineering — adjacent to agent skills)
+  - anomalyco/opencode — 40/50 — Open source coding agent (228k★, MIT, pushed 2026-11-23), TypeScript + Rust (Coding Agent — overlaps with cua-africa-enhanced, rea-africa-enhanced)
+
+- Selected: openclaw/openclaw
+- Mode: B (Substantial Enhancement Fork — MIT permissive license)
 - Score summary: 49/50
-  - Momentum 5/5 (12,613 stars, pushed 2026-11-03, active development with daily commits, 400+ contributors)
-  - Improvement potential 5/5 (African cloud cost models for AWS/GCP/Azure Africa regions, mobile money transaction cost tracking, multi-currency support for African currencies (NGN, KES, ZAR, GHS, UGX, XOF, XAF, EGP, MAD, TZS), AI-powered cost anomaly detection for FinOps security, MCP server for cost queries by AI agents, benchmark suite with regression detection, interactive architecture visualization, comprehensive documentation suite)
-  - Portfolio fit 5/5 (NEW category: Cloud/DevOps + FinOps / Cloud Cost Intelligence, Go + TypeScript polyglot, MCP server, benchmarks, strong alignment with AI Engineering + Cybersecurity + Senior delivery + African Technology)
-  - License freedom 5/5 (Apache-2.0, fully permissive for fork/enhancement/redistribution with attribution)
-  - Complexity fit 4/5 (Mature Go codebase with clear extension points: cost models per provider, resource parsers, CLI commands, API server, CI/CD integrations, dashboard)
-  - Demo potential 5/5 (CLI cost estimates for Terraform/CloudFormation/Kubernetes, CI/CD pipeline integration, live dashboard, MCP server demo, before/after African cloud cost comparisons)
-  - Documentation/case-study potential 5/5 (Architecture viz, before/after, case study, interactive tree, MCP guide, benchmark reports)
-  - Category diversification 5/5 (Cloud/DevOps + FinOps — COMPLETELY NEW category for portfolio; last 7 days: AI Context Engineering, 3D CAD, Web App, AI Security, Desktop, Mobile, AI Security)
-  - Security/AI learning value 5/5 (Cost anomaly detection as security signal, AI coding agent cost governance, FinOps security, multi-tenant cost isolation, supply chain cost analysis)
-  - Legal/ethical safety 5/5 (Apache-2.0, cost optimization focus, no data exfiltration, responsible FinOps)
+  - Momentum 5/5 (395k stars, pushed today 2026-11-23, extremely active development, 1000+ contributors, multi-platform apps)
+  - Improvement potential 5/5 (African domain skills for 15+ mobile money/fintech/healthcare/logistics/agriculture/government providers, 7 African languages for assistant interactions, 5 African accessibility dimensions: low-bandwidth, offline-first, high-contrast, data-cost, multi-language/RTL, MCP server with 5 transports (stdio + HTTP + SSE + Streamable + WebSocket) for skill orchestration, benchmark regression detection (Rust/Criterion + TypeScript/Vitest + SQLite, 5% threshold), interactive architecture visualization (React Flow, gateway + skills + channels + nodes, 8 views), comprehensive documentation suite (7+ guides), enhanced CI/CD (cargo-audit, cargo-deny, TruffleHog, SBOM, biome, mutation testing, govulncheck), security hardening (capability tokens, sandboxing, audit logging))
+  - Portfolio fit 5/5 (NEW category: General AI Agent Platform / Cross-Platform Assistant — distinct from Reverse Engineering, RAG Infrastructure, Computer-Use Agents, AI Agent Security, FinOps, AI Context Engineering, 3D CAD, AI Code Quality; Polyglot TypeScript/Rust/Swift/Kotlin/Python/Go demonstrates Senior Software Engineering breadth; AI Engineering (gateway, skills, plugins, channels, nodes, model providers); Cybersecurity (local-first, own-your-data, sandboxing, capability tokens, audit logging); African Technology (mobile money skills, African language support, African accessibility, low-bandwidth design))
+  - License freedom 5/5 (MIT, fully permissive for fork/enhancement/redistribution with attribution)
+  - Complexity fit 4/5 (Mature pnpm workspace with 20+ packages, 4 Rust crates, 30+ skills, multi-platform apps, clear extension points: plugin SDK, skill framework, gateway protocol, channel adapters, comprehensive test infrastructure)
+  - Demo potential 5/5 (Cross-platform assistant demos: mobile money transaction via WhatsApp/Telegram, healthcare appointment via iMessage, agricultural advisory via SMS/USSD, multi-language conversation showcase, architecture visualization)
+  - Documentation/case-study potential 5/5 (Architecture viz, before/after, case study, interactive tree, skill development guide, African domain skills guide, MCP integration guide, plugin SDK guide)
+  - Category diversification 5/5 (General AI Agent Platform / Cross-Platform Assistant — COMPLETELY NEW category; last 7 days: AI Code Quality/Anti-Slop, Reverse Engineering, RAG Infrastructure, Computer-Use Agents, AI Agent Security, FinOps, AI Context Engineering, 3D CAD)
+  - Security/AI learning value 5/5 (Local-first architecture, sandboxing, capability-based security, audit logging, own-your-data privacy model, agent skill isolation, channel security)
+  - Legal/ethical safety 5/5 (MIT, personal assistant, defensive tooling, improves accessibility, no exploit capability, responsible AI tooling, 501(c)(3) foundation governance)
+
 - Why selected:
-  - hermers.md §148-158: Category rotation — Cloud/DevOps + FinOps not covered in portfolio (last 7 days: AI Context Engineering, 3D CAD, Web App, AI Security, Desktop/DB, Mobile/API, AI Security)
-  - Strong alignment with portfolio goals: Senior Software Engineering (Go workspace, CLI, API server, CI/CD integrations, dashboard), AI Engineering (AI coding agent cost governance, MCP server for cost queries, cost anomaly detection), Cybersecurity (Cost anomaly detection as FinOps security signal, multi-tenant cost isolation, supply chain cost analysis), African Technology (African cloud regions cost models, mobile money transaction cost tracking, multi-currency support for 10+ African currencies, emerging market cost optimization)
-  - Clear, well-scoped improvement opportunities: African cloud provider cost models (AWS Africa Cape Town, Azure South Africa, GCP Johannesburg), mobile money transaction cost tracking (M-Pesa, MTN MoMo, Airtel Money, Orange Money, Vodacom M-Pesa, etc.), multi-currency support (NGN, KES, ZAR, GHS, UGX, XOF, XAF, EGP, MAD, TZS), AI-powered cost anomaly detection, MCP server (stdio + HTTP/SSE), benchmark regression detection suite, interactive architecture visualization (React Flow), comprehensive documentation suite, enhanced CI/CD with security scanning
-  - Go + TypeScript polyglot stack demonstrates senior engineering breadth
-  - Built-in CLI, API server, CI/CD integrations, dashboard, Terraform/CloudFormation/Kubernetes parsers provide immediate foundation for signature enhancement pattern
-  - Project is mature with active maintenance, comprehensive test suite, production-ready, used by major companies
+  - hermers.md §148-158: Category rotation — General AI Agent Platform / Cross-Platform Assistant not covered in portfolio (last 7 days: AI Code Quality, Reverse Engineering, RAG, Computer-Use, AI Security, FinOps, AI Context, 3D CAD)
+  - Strong alignment with portfolio goals: Senior Software Engineering (pnpm monorepo, Rust crates, Swift/Kotlin native apps, TypeScript packages, comprehensive testing, multi-platform CI/CD), AI Engineering (gateway control plane, 30+ skills, plugin SDK, channel adapters for 20+ messaging platforms, model provider abstraction, multi-agent orchestration), Cybersecurity (local-first, sandboxing, capability tokens, audit logging, own-your-data), African Technology (mobile money ecosystems, multi-language, SMS/USSD, low-bandwidth, offline-first)
+  - Clear, well-scoped improvement opportunities: African domain skills (15+ providers across mobile money, fintech, healthcare, logistics, agriculture, government), African language support (7 languages), African accessibility audit (5 dimensions), MCP server (5 transports, 15+ tools for skill/channel/node orchestration), benchmark regression detection (multi-language, SQLite, 5% threshold), interactive architecture visualization (React Flow, gateway + skills + channels + nodes + platforms), comprehensive documentation suite (7+ guides), enhanced CI/CD (cargo-audit, cargo-deny, TruffleHog, SBOM, biome, mutation testing, govulncheck), security hardening
+  - Polyglot codebase (TypeScript, Rust, Swift, Kotlin, Python, Go) demonstrates senior engineering breadth across mobile, desktop, web, systems
+  - Built-in skill ecosystem (30+ skills: 1password, apple-notes, coding-agent, github, notion, obsidian, etc.) provides natural extension points for African domain skills
+  - Plugin SDK and gateway protocol provide clean extension mechanisms
+  - Multi-platform apps (Android, iOS, macOS, Linux, Windows) provide exceptional demo potential
+  - 501(c)(3) foundation governance ensures long-term project health
+  - Active community (1000+ contributors, Discord, ClawHub plugin marketplace)
+
 - Why others rejected:
-  - encoredev/encore: Excellent infrastructure orchestration but MPL-2.0 license has copyleft implications for enhancements, complex compiler/runtime architecture harder to meaningfully extend in 5 hours
-  - microsoft/markitdown: Strong document processing but DevTools/AI category partially covered by magika-enhanced (2026-10-19), less direct FinOps/security alignment
-  - morluto/rea: Impressive reverse engineering with agents but very large complex codebase (Android, native binaries, multi-language), dual-use security concerns, scope too large for quality 5-hour window
-  - n8n-io/n8n: Custom fair-code license (not standard OSI-approved), restrictive for commercial fork/enhancement, workflow automation category overlaps with existing MCP server work
-  - metabase/metabase: Clojure codebase (not in preferred stack), NOASSERTION license unclear, BI category but very large monolith
-- Category focus: Cloud/DevOps + FinOps / Cloud Cost Intelligence, Go/TypeScript Polyglot, MCP Server Implementation (stdio + HTTP/SSE), African Cloud Cost Models (10+ currencies, 3 major cloud providers Africa regions), Mobile Money Transaction Cost Tracking, AI-Powered Cost Anomaly Detection, Benchmark Regression Detection, Interactive Architecture Visualization (React Flow), Comprehensive Documentation Suite, Multi-language CI/CD Pipeline (go vet, golangci-lint, govulncheck, SBOM, TruffleHog, npm audit for dashboard), FinOps Security Hardening
-- Outcome: IN PROGRESS
+  - affaan-m/ECC: Excellent multi-agent harness but meta/self-referential (ECC is the platform we're running on); agent harness category adjacent to MCP server work already demonstrated across 10+ projects; less visual demo potential (CLI-focused)
+  - langflow-ai/langflow: Visual workflow builder but Python/TypeScript only (less language diversity); visual builder category partially overlaps with architecture visualization work already demonstrated; React Flow based but less native platform breadth
+  - ultraworkers/claw-code: Fascinating autonomous self-maintaining concept but unique architecture harder to extend meaningfully in 5 hours; "developed with no human intervention" makes contribution model unclear; Rust/Python only
+  - DietrichGebert/ponytail: Agent skills/prompt engineering but JavaScript/TypeScript/Python only; category adjacent to skill work already shown in impeccable-africa-enhanced (design skills); less platform breadth
+  - anomalyco/opencode: Coding agent but category heavily covered by cua-africa-enhanced, rea-africa-enhanced, impeccable-africa-enhanced (all have coding agent integrations); TypeScript/Rust only
+
+- Category focus: General AI Agent Platform / Cross-Platform Assistant, Polyglot (TypeScript, Rust, Swift, Kotlin, Python, Go), African Domain Skills (15+ providers: M-Pesa, MTN MoMo, Airtel, Orange, Wave, EcoCash, Paga, Opay, Flutterwave, Chipper Cash, WorldRemit, Paystack, Vodacom, Tigo Pesa, Halopesa, EazzyPay, M-Pawa + healthcare, logistics, agriculture, government), African Language Support (7: Swahili, Luganda, Amharic, Hausa, Yoruba, Zulu, Xhosa), African Accessibility (5 dimensions: low-bandwidth, offline-first, high-contrast, data-cost, multi-language/RTL), MCP Server (stdio + HTTP + SSE + Streamable + WebSocket, 15+ tools), Benchmark Regression Detection (Rust/Criterion + TypeScript/Vitest + SQLite, 5% threshold), Interactive Architecture Visualization (React Flow, 8 views), Comprehensive Documentation Suite (7+ guides), Enhanced CI/CD (cargo-audit, cargo-deny, TruffleHog, SBOM, biome, mutation testing, govulncheck), Security Hardening (capability tokens, sandboxing, audit logging)
